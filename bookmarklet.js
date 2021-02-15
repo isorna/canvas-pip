@@ -36,11 +36,11 @@ if (typeof pictureInPictureGlobals) {
    */
   if (pictureInPictureGlobals.$canvases.length) {
     const $targetCanvas = pictureInPictureGlobals.$canvases[pictureInPictureGlobals.curCanvasIndex]
-    console.log('$targetCanvas', $targetCanvas)
 
     // Create video element
     if (!pictureInPictureGlobals.$video) {
       pictureInPictureGlobals.$video = document.createElement('video')
+      pictureInPictureGlobals.$video.style.display = 'none'
       document.body.appendChild(pictureInPictureGlobals.$video)
     }
 
