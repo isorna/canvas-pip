@@ -1,5 +1,18 @@
 # 🎨 Canvas PiPster
-A bookmarklet that cycles through Canvas elements on a page and pops them out of the browser with Picture in Picture. This bookmarklet even scans iframes so, it works great with online code sandboxes as well!
+
+![A video walking through various websites. Whenever I click on the bookmarklet, the next available canvas on the page pops out](https://media.giphy.com/media/TvfIFj3dVou9hVZPWM/giphy.gif)
+
+A bookmarklet that cycles through Canvas elements on a page and pops them out of the browser with [Picture in Picture API](https://developer.mozilla.org/en-US/docs/Web/API/Picture-in-Picture_API) by creating an empty video element set to the `srcObject` of a canvas on the page. This bookmarklet even scans iframes so it works great with online code sandboxes as well!
+
+# Why I made this
+
+I get inspired easily and sometimes I just want to see other peoples creations as I work or browse the web. This bookmarklet lets me bask in the wonders and delights of other people's work no matter what I'm doing or what app I have open!
+
+# Fun links to try
+
+- P5.js: https://p5js.org/examples/hello-p5-flocking.html
+- Noisedeck: https://noisedeck.app/
+- Three.js: https://threejs.org/examples/#webgl_animation_keyframes
 
 # Usage
 
