@@ -4,6 +4,8 @@
 
 A bookmarklet that cycles through Canvas elements on a page and pops them out of the browser with [Picture in Picture API](https://developer.mozilla.org/en-US/docs/Web/API/Picture-in-Picture_API) by creating an empty video element set to the `srcObject` of a canvas on the page. This bookmarklet even scans iframes so it works great with online code sandboxes as well!
 
+> 🚧 **Only works with Chrome so far.**
+
 # Why I made this
 
 I get inspired easily and sometimes I just want to see other peoples creations as I work or browse the web. This bookmarklet lets me bask in the wonders and delights of other people's work no matter what I'm doing or what app I have open!
