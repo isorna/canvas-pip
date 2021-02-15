@@ -1,7 +1,7 @@
 /**
  * Global variables
  */
-if (typeof pictureInPictureGlobals) {
+if (typeof pictureInPictureGlobals === 'undefined') {
   window.pictureInPictureGlobals = {
     $canvases: [],
     $video: null,
@@ -63,7 +63,8 @@ if (typeof pictureInPictureGlobals) {
     alert('No canvases found 😥')
   }
 
-  if (++pictureInPictureGlobals.curCanvasIndex === pictureInPictureGlobals.$canvases.length) {
+  pictureInPictureGlobals.curCanvasIndex += 1
+  if (pictureInPictureGlobals.curCanvasIndex === pictureInPictureGlobals.$canvases.length) {
     pictureInPictureGlobals.curCanvasIndex = 0
   }
 })()
